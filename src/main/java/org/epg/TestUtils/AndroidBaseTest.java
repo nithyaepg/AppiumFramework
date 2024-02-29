@@ -50,9 +50,9 @@ public class AndroidBaseTest extends AppiumUtils{
 			
 								
 			UiAutomator2Options options = new UiAutomator2Options();
-			options.setDeviceName(prop.getProperty("emulator-5554")); //emulator
+			options.setDeviceName(prop.getProperty("Pixel_7_API_28")); //emulator
 		//	options.setDeviceName("Android Device");// real device		
-			options.setChromedriverExecutable("/src/main/java/org/epg/resources/chromedriver.exe");
+			
 			options.setApp(System.getProperty("user.dir")+"/src/test/java/org/epg/resources/EP Fleet stg  2.apk");
 			//options.setAppPackage("courier.staging");
 			//options.setAppActivity("com.courier.MainActivity");
